@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Career{
+    width: 100%;
+    background: url(imgs/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.watermark{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    pointer-events: none;
+    z-index: 0;
+    user-select: none;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar.logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+ul{
+    margin-top: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;;
+    background: rgb(243, 208, 10);
+    border-radius: 10px;
+    padding: 10px 18px;
+    margin-top: -3%;
+    display: inline-block;
+    transition: .4s ease;
+}
+ul li a:hover{
+    background: rgb(9, 153, 236);
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color: hsl(52, 86%, 49%);
+}
+.info h3{
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    color: #000;
+}
+.info span{
+    color: rgb(242, 190, 18);
+}
